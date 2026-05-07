@@ -88,9 +88,7 @@ function calculateLargestCategory() {
 
 // NOVAS DESPESAS
 function addExpenseEntry(entry) {
-  const values = [];
   expenseEntries.push(entry);
-
   totalExpensesValue += entry[1];
 }
 
